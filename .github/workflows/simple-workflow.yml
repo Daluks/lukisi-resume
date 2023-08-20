@@ -36,5 +36,5 @@ jobs:
           server: ftp.lukisi.co.za
           username: lukisi@lukisi.co.za
           password: ${{ secrets.ftp_password }}
-          local-dir: ./dist/
+          local-dir: ./
           server-dir: public_html/
